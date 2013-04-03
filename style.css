@@ -21,8 +21,8 @@ h3 {
 	padding-top: 9px;
 }
 
-.mobcat h3 {
-	margin-left: 12px;
+.mobcatfirst h3 {
+	margin-left: 10px;
 }
 
 .how h3 {
@@ -49,13 +49,26 @@ p {
 	font-size: 12px;
 }
 
+ul {
+	list-style: none;
+	padding: 0;
+}
+
 /*sections*/
 
-.mobcat {
-	width:325px;
+.mobcatfirst {
+	width:150px;
+	height: 100%;
+	float: left;
+	margin-left:32px;
+}
+
+.mobcatsecond {
+	width:150px;
 	height: 100%;
 	float: left;
 	padding-right: 85px;
+	padding-top: 47px;
 }
 
 .connect {
